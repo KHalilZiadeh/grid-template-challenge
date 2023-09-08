@@ -76,6 +76,18 @@ footer {
   opacity: 0.5;
 }
 
+@media (max-width: 376px) {
+  .testimonial.Daniel::before {
+    content: "،،";
+    font-family: var(--font);
+    font-size: 200px;
+    position: absolute;
+    right: 10%;
+    top: -27%;
+    opacity: 0.5;
+  }
+}
+
 .testimonial.Jonathan {
   grid-area: Jo;
   background-color: var(--Very-dark-grayish-blue);
