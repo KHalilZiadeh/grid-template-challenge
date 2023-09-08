@@ -64,7 +64,18 @@ footer {
   grid-area: Da;
   background-color: var(--Moderate-violet);
   color: var(--White);
+  position: relative;
 }
+.testimonial.Daniel::before {
+  content: "،،";
+  font-family: var(--font);
+  font-size: 300px;
+  position: absolute;
+  right: 25%;
+  top: -50%;
+  opacity: 0.5;
+}
+
 .testimonial.Jonathan {
   grid-area: Jo;
   background-color: var(--Very-dark-grayish-blue);
